@@ -5,6 +5,8 @@ Tiny Deferred for Client or Server
 
 ## Example
 ```javascript
+var deferred = require('tiny-defer');
+
 function something () {
   var defer = deferred();
 
