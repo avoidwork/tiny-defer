@@ -23,8 +23,11 @@ something().then(function (arg) {
 ```
 
 ## API
-#### deferred()
-Returns an unboxed `Promise`
+#### resolve()
+Resolves the `Promise`
+
+#### reject()
+Rejects the `Promise`
 
 ## How to use tiny-defer
 `tiny-defer` can be loaded as a CommonJS or AMD module, or with a script tag which would create `window.deferred`.
