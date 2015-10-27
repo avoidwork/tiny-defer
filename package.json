@@ -1,6 +1,6 @@
 {
   "name": "tiny-defer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tiny Deferred for Client or Server",
   "main": "lib/tiny-defer.js",
   "scripts": {
