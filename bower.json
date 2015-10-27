@@ -1,0 +1,29 @@
+{
+  "name": "tiny-defer",
+  "description": "Tiny Deferred for Client or Server",
+  "main": "lib/tiny-defer.js",
+  "authors": [
+    "Jason Mulligan <jason.mulligan@avoidwork.com>"
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "es6",
+    "unboxed",
+    "promise",
+    "deferred",
+    "defer"
+  ],
+  "homepage": "https://github.com/avoidwork/tiny-defer",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
