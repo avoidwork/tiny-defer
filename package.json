@@ -1,6 +1,6 @@
 {
   "name": "tiny-defer",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Tiny Deferred for Client or Server",
   "main": "lib/tiny-defer.js",
   "scripts": {
@@ -23,17 +23,19 @@
     "url": "https://github.com/avoidwork/tiny-defer/issues"
   },
   "homepage": "https://github.com/avoidwork/tiny-defer",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "devDependencies": {
     "babel-eslint": "^4.1.0",
     "grunt": "^0.4.5",
     "grunt-babel": "^5.0.0",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-nodeunit": "^1.0.0",
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-eslint": "^17.1.0"
-  },
-  "dependencies": {
-    "es6-promise": "^3.0.2"
   }
 }
