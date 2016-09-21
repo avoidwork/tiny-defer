@@ -1,6 +1,6 @@
 {
   "name": "tiny-defer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Tiny Deferred for Client or Server",
   "main": "lib/tiny-defer.js",
   "scripts": {
@@ -28,9 +28,10 @@
     "node": ">=4.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^4.1.0",
+    "babel-eslint": "^4.1.4",
+    "babel-preset-es2015": "^6.1.2",
     "grunt": "^0.4.5",
-    "grunt-babel": "^5.0.0",
+    "grunt-babel": "^6.0.0",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-nodeunit": "^1.0.0",
