@@ -27,7 +27,7 @@
     "tests",
     "src",
     "lib/tiny-defer.es6.js",
-    "lib/tiny-defer.min.js",
-    "lib/tiny-defer.min.js.map"
+    ".*",
+    "Gruntfile.js"
   ]
 }
